@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <script src="app.js"></script>
+  <title>Cookbook</title>
+</head>
+
+<body>
+  <div class="header">
+    <nav class=" my-nav navbar navbar-expand-lg navbar-light bg-warning  fixed-top">
+
+      <a class="navbar-brand" href="#">
+        <img src="images/cookbook logo.png" alt="" id="logo">
+      </a>
+
+      <button class="navbar-toggler bg-danger " type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  justify-content-center mr-auto">
+          <li class="nav-item active  ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about us/index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Recipes/index.html">Recipes</a>
+          </li>
+          <div class="dropdown">
+            <a class="btn btn-warning dropdown-toggle" href="index.html" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Category
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="category/Appetizers/index.html">Appetizers & Snacks</a>
+              <a class="dropdown-item" href="category/Breakfast/index.html">Breakfast</a>
+              <a class="dropdown-item" href="category/Biryani & Pulao/index.html">Biryani & Pulao</a>
+              <a class="dropdown-item" href="#">Desserts</a>
+
+            </div>
+          </div>
+
+          <li class="nav-item active">
+            <a class="nav-link " href="contact us/index.html" tabindex="-1">Contact Us</a>
+          </li>
+        </ul>
+
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger  my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- <div >
+      <div id="slides" class="cover-slides">
+        <ul class="slides-container">
+          <li class="text-left">
+            <img src="images/chicken.jpg"  class="d-block w-100 " alt="">
+            <div class="container" id="text">
+              <div class="row">
+                <div class="col-md-12 mr-0">
+                  <h1 class="m-b-20"><strong>Welcome To <br> Live Dinner Restaurant</strong></h1>
+                  <p class="m-b-40">See how your users experience your website in realtime or view  <br> 
+                  trends to see any changes in performance over time.</p>
+                  <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </div> -->
+    <div>
+
+      <img src="images/chicken.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block" id="welcome">
+        <h1 id="intro" style="font-size: 52px;text-align: center;">Welcome to Rafia's Online Cookbook</h1>
+        <h3 id="intro" style="font-size: 48px;text-align: center;">We are here to help you out to polish your cooking
+          skills</h3>
+      </div>
+    </div>
+  </div>
+  <h1 id="special">
+    Eid Special Recipes
+  </h1>
+  <div class="container" id="food">
+    <div class="row" id="cards">
+      <div class="col-sm-12 col-md-6 col-lg-3" id="food">
+        <div class="card" style="width: 18rem; ">
+          <img src="images/korma.jpg" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Korma</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/masala.jpg" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Masala Biryani</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/k.png" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chicken tikka karahi</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/t.jpg" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Grilled Tandoori Chicken</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12  col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/sheer khurma.jpg" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sheer Khurma</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/fruit.jpg" class="card-img-top" height="190px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fruit Trifle custard</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/kheer.jpg" class="card-img-top" alt="..." height="190px">
+          <div class="card-body">
+            <h5 class="card-title">Kheer</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-6 col-lg-3"id="food">
+        <div class="card" style="width: 18rem;">
+          <img src="images/g.jpg" class="card-img-top" alt="..." height="190px">
+          <div class="card-body">
+            <h5 class="card-title">Gulab Jamun</h5>
+            <a href="Recipes/index.html" class="btn btn-danger">click to View full recipe</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <h1 id="special">More Categories</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" id="category" style="width: 18rem; ">
+          <img src="images/app.jpg" class="card-img-top bg-warning" height="160px" width="100px" alt="...">
+          <div class=" category card-body">
+
+            <a href="category/Appetizers/index.html" class="btn btn-danger">Appetizers & snacks</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" id="category" style="width: 18rem;">
+          <img src="images/break.jpg" class="card-img-top bg-warning" height="160px" width="100px" alt="...">
+          <div class="category card-body">
+
+            <a href="category/Breakfast/index.html" class="btn btn-danger">Breakfast</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" id="category" style="width: 18rem;">
+          <img src="images/dess.jpg" class="card-img-top bg-warning" height="160px" width="100px" alt="...">
+          <div class="category card-body">
+
+            <a href="category/Desserts/index.html" class="btn btn-danger">Desserts</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-3"id="food">
+        <div class="card" id="category" style="width: 18rem;">
+          <img src="images/bir.jpg" class="card-img-top bg-warning" height="160px" width="100px" alt="...">
+          <div class="category card-body">
+
+            <a href="category/Biryani & Pulao/index.html" class="btn btn-danger">Biryani & Pulao</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <div class="container-fluid bg-warning" >
+     <div class="row">
+          <div class="col">
+            <h2 id="special" class="bg-danger">Contact Us</h2>
+            <form>
+        
+               <div class="form-group row">
+                 <label for="inputEmail3" class="col-sm-2 col-form-label" style="text-align: center;font-weight:bold "required="required">Email</label>
+                 <div class="col">
+                   <input type="email" class="form-control" id="inputEmail3"style="text-align: center;">
+                 </div>
+               </div>
+               <div class="form-group row">
+                 <label for="inputfeedback3" class="col-sm-2 col-form-label"style="text-align: center; font-weight:bold"required="required">Your Feedback</label>
+                 <div class="col">
+                   <input type="text" class="form-control" id="inputPassword3"style="text-align: center;">
+                 </div>
+               </div>
+               
+               
+               <div class="form-group row ">
+                 <div class="col-sm-10 " style="text-align: center;">
+                   <button type="submit" class="btn btn-primary "onclick="show_alert();" >Submit</button>
+                 </div>
+               </div>
+             </form>
+           
+          </div>
+          <div class="col-sm-6">
+            <h2 id="special" class="bg-danger">Connect With Us</h2>
+            <div class="row">
+            <div class="col-lg-12"style="cursor:pointer;text-align:center">
+            <img src="images/f.png" width="25" height="25" alt="">
+          <img src="images/tw1.jpg" width="25" height="25" alt="">
+<img src="images/whatsapp.png" width="25" height="25" alt="">
+ <img src="images/b.jpg" width="25" height="25" alt="">
+<img src="images/yt.png" width="25" height="25" alt="">
+<h2 id="special" class="bg-danger">For any query Please contact us through this email </h2>
+<a href="" id="email">rafia'sonlinecookbook@gmail.com</a>
+</div>
+</div>
+</div>
+ 
+
+
+
+     </div>
+     
+    </div>
+ 
+    <a href="#top" >  <img src="images/go top.png" alt=""id="go-top" height="40px"></a>
+  </footer>
+  <div id="special" class="bg-danger"height="300px" style="font-size: 22px;">
+    @copyright rafia'sonlinecookbook
+   
+  </div>
+
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
